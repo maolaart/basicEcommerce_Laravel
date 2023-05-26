@@ -42,7 +42,7 @@
                                     </div>
                                     @if ($errors->any())    
                                     <div class="alert alert-danger">
-                                        <strong>Gagal</strong>
+                                        <strong>Failed</strong>
                                         <p>{{$errors->first()}}</p>
                                     </div>
                                     @endif
